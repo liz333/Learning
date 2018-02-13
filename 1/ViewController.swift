@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     @IBAction func buttontap(_ sender: Any) {
     
         tapbuttoncount = tapbuttoncount + 1
-        if tapbuttoncount >= 15 {
+        if tapbuttoncount >= 20 {
             print("you tapped button" ,tapbuttoncount)
         } else{
             print("button has been tapped" ,tapbuttoncount)
